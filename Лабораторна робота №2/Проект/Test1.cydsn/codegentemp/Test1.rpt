@@ -1,0 +1,1964 @@
+Loading plugins phase: Elapsed time ==> 0s.406ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -d CY8C3866AXI-040 -s C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Generated_Source\PSoC3 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: fit.M0032: warning: Clock Warning: (Tempo_Clock's accuracy range '15.873  Hz -50% +100%, (7.937  Hz - 31.746  Hz)' is not within the specified tolerance range '16  Hz +/- 5%, (15.2  Hz - 16.8  Hz)'.).
+ * C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cydwr (Tempo_Clock)
+ * C:\Users\007\Documents\PSoC Creator\Test1.cydsn\TopDesign\TopDesign.cysch (Instance:Tempo_Clock)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 2s.671ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.078ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Test1.v
+Program  :   D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -dcpsoc3 Test1.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  Test1.v
+Program  :   D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -dcpsoc3 Test1.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  Test1.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -dcpsoc3 -verilog Test1.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Thu Nov 14 10:07:42 2019
+
+
+======================================================================
+Compiling:  Test1.v
+Program  :   vpp
+Options  :    -yv2 -q10 Test1.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Thu Nov 14 10:07:42 2019
+
+Flattening file 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\LUT_v1_60\LUT_v1_60.v'
+Flattening file 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\mux_v1_10\mux_v1_10.v'
+Flattening file 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
+Flattening file 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'
+Flattening file 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'Test1.ctl'.
+D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v (line 59, col 28):  Note: Substituting module 'add_vi_vv' for '+'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  Test1.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -dcpsoc3 -verilog Test1.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Thu Nov 14 10:07:42 2019
+
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\007\Documents\PSoC Creator\Test1.cydsn\codegentemp\Test1.ctl'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\LUT_v1_60\LUT_v1_60.v'.
+Linking 'C:\Users\007\Documents\PSoC Creator\Test1.cydsn\codegentemp\Test1.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\mux_v1_10\mux_v1_10.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  Test1.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -dcpsoc3 -verilog Test1.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Thu Nov 14 10:07:43 2019
+
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\007\Documents\PSoC Creator\Test1.cydsn\codegentemp\Test1.ctl'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\LUT_v1_60\LUT_v1_60.v'.
+Linking 'C:\Users\007\Documents\PSoC Creator\Test1.cydsn\codegentemp\Test1.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\mux_v1_10\mux_v1_10.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
+Linking 'D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	\Counter:MODULE_1:b_31\
+	\Counter:MODULE_1:b_30\
+	\Counter:MODULE_1:b_29\
+	\Counter:MODULE_1:b_28\
+	\Counter:MODULE_1:b_27\
+	\Counter:MODULE_1:b_26\
+	\Counter:MODULE_1:b_25\
+	\Counter:MODULE_1:b_24\
+	\Counter:MODULE_1:b_23\
+	\Counter:MODULE_1:b_22\
+	\Counter:MODULE_1:b_21\
+	\Counter:MODULE_1:b_20\
+	\Counter:MODULE_1:b_19\
+	\Counter:MODULE_1:b_18\
+	\Counter:MODULE_1:b_17\
+	\Counter:MODULE_1:b_16\
+	\Counter:MODULE_1:b_15\
+	\Counter:MODULE_1:b_14\
+	\Counter:MODULE_1:b_13\
+	\Counter:MODULE_1:b_12\
+	\Counter:MODULE_1:b_11\
+	\Counter:MODULE_1:b_10\
+	\Counter:MODULE_1:b_9\
+	\Counter:MODULE_1:b_8\
+	\Counter:MODULE_1:b_7\
+	\Counter:MODULE_1:b_6\
+	\Counter:MODULE_1:b_5\
+	\Counter:MODULE_1:b_4\
+	\Counter:MODULE_1:b_3\
+	\Counter:MODULE_1:b_2\
+	\Counter:MODULE_1:b_1\
+	\Counter:MODULE_1:b_0\
+	\Counter:MODULE_1:g2:a0:a_31\
+	\Counter:MODULE_1:g2:a0:a_30\
+	\Counter:MODULE_1:g2:a0:a_29\
+	\Counter:MODULE_1:g2:a0:a_28\
+	\Counter:MODULE_1:g2:a0:a_27\
+	\Counter:MODULE_1:g2:a0:a_26\
+	\Counter:MODULE_1:g2:a0:a_25\
+	\Counter:MODULE_1:g2:a0:a_24\
+	\Counter:MODULE_1:g2:a0:b_31\
+	\Counter:MODULE_1:g2:a0:b_30\
+	\Counter:MODULE_1:g2:a0:b_29\
+	\Counter:MODULE_1:g2:a0:b_28\
+	\Counter:MODULE_1:g2:a0:b_27\
+	\Counter:MODULE_1:g2:a0:b_26\
+	\Counter:MODULE_1:g2:a0:b_25\
+	\Counter:MODULE_1:g2:a0:b_24\
+	\Counter:MODULE_1:g2:a0:b_23\
+	\Counter:MODULE_1:g2:a0:b_22\
+	\Counter:MODULE_1:g2:a0:b_21\
+	\Counter:MODULE_1:g2:a0:b_20\
+	\Counter:MODULE_1:g2:a0:b_19\
+	\Counter:MODULE_1:g2:a0:b_18\
+	\Counter:MODULE_1:g2:a0:b_17\
+	\Counter:MODULE_1:g2:a0:b_16\
+	\Counter:MODULE_1:g2:a0:b_15\
+	\Counter:MODULE_1:g2:a0:b_14\
+	\Counter:MODULE_1:g2:a0:b_13\
+	\Counter:MODULE_1:g2:a0:b_12\
+	\Counter:MODULE_1:g2:a0:b_11\
+	\Counter:MODULE_1:g2:a0:b_10\
+	\Counter:MODULE_1:g2:a0:b_9\
+	\Counter:MODULE_1:g2:a0:b_8\
+	\Counter:MODULE_1:g2:a0:b_7\
+	\Counter:MODULE_1:g2:a0:b_6\
+	\Counter:MODULE_1:g2:a0:b_5\
+	\Counter:MODULE_1:g2:a0:b_4\
+	\Counter:MODULE_1:g2:a0:b_3\
+	\Counter:MODULE_1:g2:a0:b_2\
+	\Counter:MODULE_1:g2:a0:b_1\
+	\Counter:MODULE_1:g2:a0:b_0\
+	\Counter:MODULE_1:g2:a0:s_31\
+	\Counter:MODULE_1:g2:a0:s_30\
+	\Counter:MODULE_1:g2:a0:s_29\
+	\Counter:MODULE_1:g2:a0:s_28\
+	\Counter:MODULE_1:g2:a0:s_27\
+	\Counter:MODULE_1:g2:a0:s_26\
+	\Counter:MODULE_1:g2:a0:s_25\
+	\Counter:MODULE_1:g2:a0:s_24\
+	\Counter:MODULE_1:g2:a0:s_23\
+	\Counter:MODULE_1:g2:a0:s_22\
+	\Counter:MODULE_1:g2:a0:s_21\
+	\Counter:MODULE_1:g2:a0:s_20\
+	\Counter:MODULE_1:g2:a0:s_19\
+	\Counter:MODULE_1:g2:a0:s_18\
+	\Counter:MODULE_1:g2:a0:s_17\
+	\Counter:MODULE_1:g2:a0:s_16\
+	\Counter:MODULE_1:g2:a0:s_15\
+	\Counter:MODULE_1:g2:a0:s_14\
+	\Counter:MODULE_1:g2:a0:s_13\
+	\Counter:MODULE_1:g2:a0:s_12\
+	\Counter:MODULE_1:g2:a0:s_11\
+	\Counter:MODULE_1:g2:a0:s_10\
+	\Counter:MODULE_1:g2:a0:s_9\
+	\Counter:MODULE_1:g2:a0:s_8\
+	\Counter:MODULE_1:g2:a0:s_7\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_31\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_30\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_29\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_28\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_27\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_26\
+	\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_25\
+
+    Synthesized names
+	\Counter:add_vi_vv_MODGEN_1_31\
+	\Counter:add_vi_vv_MODGEN_1_30\
+	\Counter:add_vi_vv_MODGEN_1_29\
+	\Counter:add_vi_vv_MODGEN_1_28\
+	\Counter:add_vi_vv_MODGEN_1_27\
+	\Counter:add_vi_vv_MODGEN_1_26\
+	\Counter:add_vi_vv_MODGEN_1_25\
+	\Counter:add_vi_vv_MODGEN_1_24\
+	\Counter:add_vi_vv_MODGEN_1_23\
+	\Counter:add_vi_vv_MODGEN_1_22\
+	\Counter:add_vi_vv_MODGEN_1_21\
+	\Counter:add_vi_vv_MODGEN_1_20\
+	\Counter:add_vi_vv_MODGEN_1_19\
+	\Counter:add_vi_vv_MODGEN_1_18\
+	\Counter:add_vi_vv_MODGEN_1_17\
+	\Counter:add_vi_vv_MODGEN_1_16\
+	\Counter:add_vi_vv_MODGEN_1_15\
+	\Counter:add_vi_vv_MODGEN_1_14\
+	\Counter:add_vi_vv_MODGEN_1_13\
+	\Counter:add_vi_vv_MODGEN_1_12\
+	\Counter:add_vi_vv_MODGEN_1_11\
+	\Counter:add_vi_vv_MODGEN_1_10\
+	\Counter:add_vi_vv_MODGEN_1_9\
+	\Counter:add_vi_vv_MODGEN_1_8\
+	\Counter:add_vi_vv_MODGEN_1_7\
+
+Deleted 104 User equations/components.
+Deleted 25 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \LUT_Line_3:tmp__LUT_Line_3_ins_4\ to \LUT_Line_4:tmp__LUT_Line_4_ins_4\
+Aliasing \LUT_Line_3:tmp__LUT_Line_3_ins_3\ to \LUT_Line_4:tmp__LUT_Line_4_ins_3\
+Aliasing \LUT_Line_3:tmp__LUT_Line_3_ins_2\ to \LUT_Line_4:tmp__LUT_Line_4_ins_2\
+Aliasing \LUT_Line_3:tmp__LUT_Line_3_ins_1\ to \LUT_Line_4:tmp__LUT_Line_4_ins_1\
+Aliasing \LUT_Line_3:tmp__LUT_Line_3_ins_0\ to \LUT_Line_4:tmp__LUT_Line_4_ins_0\
+Aliasing \LUT_Line_2:tmp__LUT_Line_2_ins_4\ to \LUT_Line_4:tmp__LUT_Line_4_ins_4\
+Aliasing \LUT_Line_2:tmp__LUT_Line_2_ins_3\ to \LUT_Line_4:tmp__LUT_Line_4_ins_3\
+Aliasing \LUT_Line_2:tmp__LUT_Line_2_ins_2\ to \LUT_Line_4:tmp__LUT_Line_4_ins_2\
+Aliasing \LUT_Line_2:tmp__LUT_Line_2_ins_1\ to \LUT_Line_4:tmp__LUT_Line_4_ins_1\
+Aliasing \LUT_Line_2:tmp__LUT_Line_2_ins_0\ to \LUT_Line_4:tmp__LUT_Line_4_ins_0\
+Aliasing \LUT_Line_1:tmp__LUT_Line_1_ins_4\ to \LUT_Line_4:tmp__LUT_Line_4_ins_4\
+Aliasing \LUT_Line_1:tmp__LUT_Line_1_ins_3\ to \LUT_Line_4:tmp__LUT_Line_4_ins_3\
+Aliasing \LUT_Line_1:tmp__LUT_Line_1_ins_2\ to \LUT_Line_4:tmp__LUT_Line_4_ins_2\
+Aliasing \LUT_Line_1:tmp__LUT_Line_1_ins_1\ to \LUT_Line_4:tmp__LUT_Line_4_ins_1\
+Aliasing \LUT_Line_1:tmp__LUT_Line_1_ins_0\ to \LUT_Line_4:tmp__LUT_Line_4_ins_0\
+Aliasing Net_100 to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_23\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_22\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_21\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_20\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_19\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_18\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_17\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_16\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_15\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_14\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_13\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_12\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_11\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_10\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_9\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_8\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:a_7\ to Net_66
+Aliasing \Counter:MODIN1_4\ to \LUT_Line_4:tmp__LUT_Line_4_ins_4\
+Aliasing \Counter:MODIN1_3\ to \LUT_Line_4:tmp__LUT_Line_4_ins_3\
+Aliasing \Counter:MODIN1_2\ to \LUT_Line_4:tmp__LUT_Line_4_ins_2\
+Aliasing \Counter:MODIN1_1\ to \LUT_Line_4:tmp__LUT_Line_4_ins_1\
+Aliasing \Counter:MODIN1_0\ to \LUT_Line_4:tmp__LUT_Line_4_ins_0\
+Aliasing \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\ to Net_98
+Aliasing tmpOE__Buzzer_net_0 to Net_98
+Aliasing zero to Net_66
+Aliasing one to Net_98
+Aliasing tmpOE__Pin_1_net_0 to Net_98
+Removing Lhs of wire \LUT_Line_4:tmp__LUT_Line_4_ins_4\[0] = Net_102_4[1]
+Removing Lhs of wire \LUT_Line_4:tmp__LUT_Line_4_ins_3\[2] = Net_102_3[3]
+Removing Lhs of wire \LUT_Line_4:tmp__LUT_Line_4_ins_2\[4] = Net_102_2[5]
+Removing Lhs of wire \LUT_Line_4:tmp__LUT_Line_4_ins_1\[6] = Net_102_1[7]
+Removing Lhs of wire \LUT_Line_4:tmp__LUT_Line_4_ins_0\[8] = Net_102_0[9]
+Removing Rhs of wire Net_274_2[13] = \LUT_Line_4:tmp__LUT_Line_4_reg_2\[10]
+Removing Rhs of wire Net_274_1[14] = \LUT_Line_4:tmp__LUT_Line_4_reg_1\[11]
+Removing Rhs of wire Net_274_0[15] = \LUT_Line_4:tmp__LUT_Line_4_reg_0\[12]
+Removing Lhs of wire \LUT_Line_3:tmp__LUT_Line_3_ins_4\[16] = Net_102_4[1]
+Removing Lhs of wire \LUT_Line_3:tmp__LUT_Line_3_ins_3\[17] = Net_102_3[3]
+Removing Lhs of wire \LUT_Line_3:tmp__LUT_Line_3_ins_2\[18] = Net_102_2[5]
+Removing Lhs of wire \LUT_Line_3:tmp__LUT_Line_3_ins_1\[19] = Net_102_1[7]
+Removing Lhs of wire \LUT_Line_3:tmp__LUT_Line_3_ins_0\[20] = Net_102_0[9]
+Removing Rhs of wire Net_273_2[24] = \LUT_Line_3:tmp__LUT_Line_3_reg_2\[21]
+Removing Rhs of wire Net_273_1[25] = \LUT_Line_3:tmp__LUT_Line_3_reg_1\[22]
+Removing Rhs of wire Net_273_0[26] = \LUT_Line_3:tmp__LUT_Line_3_reg_0\[23]
+Removing Lhs of wire \LUT_Line_2:tmp__LUT_Line_2_ins_4\[27] = Net_102_4[1]
+Removing Lhs of wire \LUT_Line_2:tmp__LUT_Line_2_ins_3\[28] = Net_102_3[3]
+Removing Lhs of wire \LUT_Line_2:tmp__LUT_Line_2_ins_2\[29] = Net_102_2[5]
+Removing Lhs of wire \LUT_Line_2:tmp__LUT_Line_2_ins_1\[30] = Net_102_1[7]
+Removing Lhs of wire \LUT_Line_2:tmp__LUT_Line_2_ins_0\[31] = Net_102_0[9]
+Removing Rhs of wire Net_272_2[35] = \LUT_Line_2:tmp__LUT_Line_2_reg_2\[32]
+Removing Rhs of wire Net_272_1[36] = \LUT_Line_2:tmp__LUT_Line_2_reg_1\[33]
+Removing Rhs of wire Net_272_0[37] = \LUT_Line_2:tmp__LUT_Line_2_reg_0\[34]
+Removing Lhs of wire \LUT_Line_1:tmp__LUT_Line_1_ins_4\[38] = Net_102_4[1]
+Removing Lhs of wire \LUT_Line_1:tmp__LUT_Line_1_ins_3\[39] = Net_102_3[3]
+Removing Lhs of wire \LUT_Line_1:tmp__LUT_Line_1_ins_2\[40] = Net_102_2[5]
+Removing Lhs of wire \LUT_Line_1:tmp__LUT_Line_1_ins_1\[41] = Net_102_1[7]
+Removing Lhs of wire \LUT_Line_1:tmp__LUT_Line_1_ins_0\[42] = Net_102_0[9]
+Removing Rhs of wire Net_67_2[46] = \LUT_Line_1:tmp__LUT_Line_1_reg_2\[43]
+Removing Rhs of wire Net_67_1[47] = \LUT_Line_1:tmp__LUT_Line_1_reg_1\[44]
+Removing Rhs of wire Net_67_0[48] = \LUT_Line_1:tmp__LUT_Line_1_reg_0\[45]
+Removing Rhs of wire Net_494_2[54] = \mux_2:tmp__mux_2_reg_2\[49]
+Removing Rhs of wire Net_494_1[55] = \mux_2:tmp__mux_2_reg_1\[52]
+Removing Rhs of wire Net_494_0[56] = \mux_2:tmp__mux_2_reg_0\[53]
+Removing Lhs of wire Net_100[58] = Net_66[57]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_6\[62] = \Counter:MODULE_1:g2:a0:s_6\[222]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_5\[63] = \Counter:MODULE_1:g2:a0:s_5\[223]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_4\[64] = \Counter:MODULE_1:g2:a0:s_4\[224]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_3\[65] = \Counter:MODULE_1:g2:a0:s_3\[225]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_2\[66] = \Counter:MODULE_1:g2:a0:s_2\[226]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_1\[67] = \Counter:MODULE_1:g2:a0:s_1\[227]
+Removing Lhs of wire \Counter:add_vi_vv_MODGEN_1_0\[68] = \Counter:MODULE_1:g2:a0:s_0\[228]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_23\[109] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_22\[110] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_21\[111] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_20\[112] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_19\[113] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_18\[114] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_17\[115] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_16\[116] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_15\[117] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_14\[118] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_13\[119] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_12\[120] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_11\[121] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_10\[122] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_9\[123] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_8\[124] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_7\[125] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_6\[126] = \Counter:MODIN1_6\[127]
+Removing Lhs of wire \Counter:MODIN1_6\[127] = Net_102_6[50]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_5\[128] = \Counter:MODIN1_5\[129]
+Removing Lhs of wire \Counter:MODIN1_5\[129] = Net_102_5[51]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_4\[130] = Net_102_4[1]
+Removing Lhs of wire \Counter:MODIN1_4\[131] = Net_102_4[1]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_3\[132] = Net_102_3[3]
+Removing Lhs of wire \Counter:MODIN1_3\[133] = Net_102_3[3]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_2\[134] = Net_102_2[5]
+Removing Lhs of wire \Counter:MODIN1_2\[135] = Net_102_2[5]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_1\[136] = Net_102_1[7]
+Removing Lhs of wire \Counter:MODIN1_1\[137] = Net_102_1[7]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:a_0\[138] = Net_102_0[9]
+Removing Lhs of wire \Counter:MODIN1_0\[139] = Net_102_0[9]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_0\[266] = Net_98[59]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_0\[267] = Net_98[59]
+Removing Rhs of wire Net_481[276] = \mux_1:tmp__mux_1_reg\[268]
+Removing Lhs of wire tmpOE__Buzzer_net_0[284] = Net_98[59]
+Removing Lhs of wire zero[289] = Net_66[57]
+Removing Lhs of wire one[290] = Net_98[59]
+Removing Lhs of wire tmpOE__Pin_1_net_0[294] = Net_98[59]
+
+------------------------------------------------------
+Aliased 0 equations, 81 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'Net_274_2' (cost = 5):
+Net_274_2 <= ((not Net_102_3 and not Net_102_1 and Net_102_4 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_1 and Net_102_0)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_1)
+	OR (not Net_102_2 and Net_102_3 and Net_102_1)
+	OR (Net_102_3 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for 'Net_274_1' (cost = 6):
+Net_274_1 <= ((not Net_102_2 and Net_102_4 and Net_102_1)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_0)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_4)
+	OR (not Net_102_4 and Net_102_3 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_1)
+	OR (Net_102_3 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for 'Net_274_0' (cost = 7):
+Net_274_0 <= ((not Net_102_3 and not Net_102_1 and Net_102_0)
+	OR (Net_102_3 and Net_102_1 and Net_102_0)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_2)
+	OR (not Net_102_3 and Net_102_4)
+	OR (not Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_2)
+	OR (not Net_102_2 and Net_102_4));
+
+Note:  Expanding virtual equation for 'Net_273_2' (cost = 6):
+Net_273_2 <= ((not Net_102_4 and Net_102_3)
+	OR (not Net_102_2 and not Net_102_1 and not Net_102_0)
+	OR (not Net_102_4 and Net_102_2 and Net_102_0)
+	OR (Net_102_2 and Net_102_1)
+	OR (not Net_102_0 and Net_102_4)
+	OR (not Net_102_2 and Net_102_4));
+
+Note:  Expanding virtual equation for 'Net_273_1' (cost = 7):
+Net_273_1 <= ((not Net_102_2 and Net_102_4 and Net_102_3)
+	OR (not Net_102_0 and Net_102_4 and Net_102_3)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_2)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_0)
+	OR (not Net_102_0 and Net_102_1)
+	OR (Net_102_4 and Net_102_1));
+
+Note:  Expanding virtual equation for 'Net_273_0' (cost = 7):
+Net_273_0 <= ((not Net_102_3 and not Net_102_0 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_0)
+	OR (Net_102_4 and Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_0)
+	OR (not Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_0 and Net_102_3 and Net_102_2));
+
+Note:  Expanding virtual equation for 'Net_272_2' (cost = 7):
+Net_272_2 <= ((not Net_102_3 and not Net_102_2 and not Net_102_1 and Net_102_0)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_0 and Net_102_1)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and Net_102_4)
+	OR (Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_1 and not Net_102_0 and Net_102_3)
+	OR (Net_102_3 and Net_102_1 and Net_102_0)
+	OR (not Net_102_4 and Net_102_3));
+
+Note:  Expanding virtual equation for 'Net_272_1' (cost = 7):
+Net_272_1 <= ((Net_102_4 and Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_2 and Net_102_4 and Net_102_3)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_3 and Net_102_2)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_0 and Net_102_1)
+	OR (not Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and Net_102_0)
+	OR (not Net_102_1 and not Net_102_0 and Net_102_3));
+
+Note:  Expanding virtual equation for 'Net_272_0' (cost = 6):
+Net_272_0 <= ((not Net_102_1 and not Net_102_0 and Net_102_3)
+	OR (Net_102_4 and Net_102_1 and Net_102_0)
+	OR (not Net_102_3 and Net_102_0)
+	OR (not Net_102_1 and Net_102_2)
+	OR (not Net_102_3 and Net_102_1)
+	OR (Net_102_4 and Net_102_2));
+
+Note:  Expanding virtual equation for 'Net_67_2' (cost = 6):
+Net_67_2 <= ((not Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_0 and Net_102_3)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and Net_102_4)
+	OR (not Net_102_3 and Net_102_4 and Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_2 and Net_102_1)
+	OR (not Net_102_1 and Net_102_3 and Net_102_2));
+
+Note:  Expanding virtual equation for 'Net_67_1' (cost = 6):
+Net_67_1 <= ((not Net_102_3 and Net_102_1 and Net_102_0)
+	OR (not Net_102_1 and Net_102_3 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_0 and Net_102_3)
+	OR (not Net_102_3 and not Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and Net_102_3 and Net_102_2)
+	OR (not Net_102_3 and Net_102_4));
+
+Note:  Expanding virtual equation for 'Net_67_0' (cost = 7):
+Net_67_0 <= ((not Net_102_1 and Net_102_3 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_2)
+	OR (not Net_102_1 and not Net_102_0 and Net_102_3)
+	OR (not Net_102_3 and Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_3 and Net_102_1)
+	OR (not Net_102_2 and Net_102_4 and Net_102_3)
+	OR (not Net_102_2 and not Net_102_1 and Net_102_4));
+
+Note:  Virtual signal Net_494_2 with ( cost: 176 or cost_inv: 21)  > 90 or with size: 23 > 102 has been made a (soft) node.
+Net_494_2 <= ((not Net_102_3 and not Net_102_5 and Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_0 and not Net_102_5 and Net_102_3)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and not Net_102_5 and Net_102_4)
+	OR (not Net_102_3 and not Net_102_5 and Net_102_4 and Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_2 and not Net_102_6 and not Net_102_5 and Net_102_1)
+	OR (not Net_102_1 and not Net_102_6 and not Net_102_5 and Net_102_3 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_5 and Net_102_3 and Net_102_6)
+	OR (not Net_102_2 and not Net_102_1 and not Net_102_0 and not Net_102_5 and Net_102_6)
+	OR (not Net_102_4 and not Net_102_5 and Net_102_2 and Net_102_0 and Net_102_6)
+	OR (not Net_102_5 and Net_102_2 and Net_102_1 and Net_102_6)
+	OR (not Net_102_0 and not Net_102_5 and Net_102_4 and Net_102_6)
+	OR (not Net_102_2 and not Net_102_5 and Net_102_4 and Net_102_6)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and not Net_102_6 and Net_102_0 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_0 and not Net_102_6 and Net_102_1 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and not Net_102_6 and Net_102_4)
+	OR (not Net_102_6 and Net_102_2 and Net_102_1 and Net_102_0 and Net_102_5)
+	OR (not Net_102_1 and not Net_102_0 and not Net_102_6 and Net_102_3 and Net_102_5)
+	OR (Net_102_3 and Net_102_1 and Net_102_0 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_6 and Net_102_3 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_4 and Net_102_2 and Net_102_6 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_1 and Net_102_0 and Net_102_6 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_1 and Net_102_6 and Net_102_5)
+	OR (not Net_102_2 and Net_102_3 and Net_102_1 and Net_102_6 and Net_102_5));
+
+Note:  Virtual signal Net_494_1 with ( cost: 204 or cost_inv: 25)  > 90 or with size: 26 > 102 has been made a (soft) node.
+Net_494_1 <= ((not Net_102_3 and not Net_102_6 and not Net_102_5 and Net_102_1 and Net_102_0)
+	OR (not Net_102_1 and not Net_102_6 and not Net_102_5 and Net_102_3 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_0 and not Net_102_6 and Net_102_3)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_6 and not Net_102_5 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_6 and not Net_102_5 and Net_102_3 and Net_102_2)
+	OR (not Net_102_3 and not Net_102_6 and not Net_102_5 and Net_102_4)
+	OR (not Net_102_2 and not Net_102_5 and Net_102_4 and Net_102_3 and Net_102_6)
+	OR (not Net_102_0 and not Net_102_5 and Net_102_4 and Net_102_3 and Net_102_6)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_2 and not Net_102_5 and Net_102_6)
+	OR (not Net_102_3 and not Net_102_1 and not Net_102_5 and Net_102_2 and Net_102_6)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_5 and Net_102_0 and Net_102_6)
+	OR (not Net_102_0 and not Net_102_5 and Net_102_1 and Net_102_6)
+	OR (not Net_102_5 and Net_102_4 and Net_102_1 and Net_102_6)
+	OR (not Net_102_6 and Net_102_4 and Net_102_2 and Net_102_1 and Net_102_0 and Net_102_5)
+	OR (not Net_102_2 and not Net_102_6 and Net_102_4 and Net_102_3 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_3 and Net_102_2 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_0 and not Net_102_6 and Net_102_1)
+	OR (not Net_102_3 and not Net_102_6 and Net_102_2 and Net_102_1 and Net_102_0)
+	OR (not Net_102_3 and not Net_102_2 and not Net_102_1 and Net_102_0 and Net_102_5)
+	OR (not Net_102_1 and not Net_102_0 and not Net_102_6 and Net_102_3 and Net_102_5)
+	OR (not Net_102_2 and Net_102_4 and Net_102_1 and Net_102_6)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_0 and Net_102_6 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_4 and Net_102_6 and Net_102_5)
+	OR (not Net_102_4 and Net_102_3 and Net_102_2 and Net_102_6 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_1 and Net_102_6)
+	OR (Net_102_3 and Net_102_1 and Net_102_0 and Net_102_6 and Net_102_5));
+
+Note:  Virtual signal Net_494_0 with ( cost: 180 or cost_inv: 19)  > 90 or with size: 26 > 102 has been made a (soft) node.
+Net_494_0 <= ((not Net_102_1 and not Net_102_6 and Net_102_3 and Net_102_2)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_6 and Net_102_2)
+	OR (not Net_102_1 and not Net_102_0 and not Net_102_6 and Net_102_3)
+	OR (not Net_102_3 and not Net_102_6 and Net_102_2 and Net_102_1)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_6 and Net_102_1)
+	OR (not Net_102_2 and not Net_102_6 and not Net_102_5 and Net_102_4 and Net_102_3)
+	OR (not Net_102_2 and not Net_102_1 and not Net_102_6 and not Net_102_5 and Net_102_4)
+	OR (not Net_102_3 and not Net_102_0 and not Net_102_5 and Net_102_1 and Net_102_6)
+	OR (not Net_102_4 and not Net_102_0 and not Net_102_5 and Net_102_1 and Net_102_6)
+	OR (not Net_102_4 and not Net_102_1 and not Net_102_5 and Net_102_0 and Net_102_6)
+	OR (not Net_102_5 and Net_102_4 and Net_102_2 and Net_102_1 and Net_102_6)
+	OR (not Net_102_4 and not Net_102_3 and not Net_102_0 and not Net_102_5 and Net_102_6)
+	OR (not Net_102_2 and Net_102_1 and Net_102_0 and Net_102_6)
+	OR (not Net_102_0 and not Net_102_5 and Net_102_3 and Net_102_2 and Net_102_6)
+	OR (not Net_102_6 and Net_102_4 and Net_102_1 and Net_102_0 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_6 and Net_102_0 and Net_102_5)
+	OR (not Net_102_1 and not Net_102_6 and Net_102_2 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_6 and Net_102_1 and Net_102_5)
+	OR (not Net_102_6 and Net_102_4 and Net_102_2 and Net_102_5)
+	OR (not Net_102_3 and not Net_102_1 and Net_102_0 and Net_102_5)
+	OR (Net_102_3 and Net_102_1 and Net_102_0 and Net_102_6 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_1 and Net_102_2 and Net_102_5)
+	OR (not Net_102_3 and Net_102_4 and Net_102_6 and Net_102_5)
+	OR (not Net_102_2 and Net_102_1 and Net_102_6 and Net_102_5)
+	OR (not Net_102_4 and not Net_102_0 and Net_102_2 and Net_102_6 and Net_102_5)
+	OR (not Net_102_2 and Net_102_4 and Net_102_6 and Net_102_5));
+
+Note:  Expanding virtual equation for 'Net_66' (cost = 0):
+Net_66 <=  ('0') ;
+
+Note:  Expanding virtual equation for 'Net_98' (cost = 0):
+Net_98 <=  ('1') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_1\ <= (Net_102_0);
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_0\' (cost = 0):
+\Counter:MODULE_1:g2:a0:s_0\ <= (not Net_102_0);
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_17\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_9\ <=  ('0') ;
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\' (cost = 4):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_2\ <= ((Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_1\' (cost = 2):
+\Counter:MODULE_1:g2:a0:s_1\ <= ((not Net_102_0 and Net_102_1)
+	OR (not Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_18\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_10\ <=  ('0') ;
+
+
+Substituting virtuals - pass 3:
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\' (cost = 5):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_3\ <= ((Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_2\' (cost = 3):
+\Counter:MODULE_1:g2:a0:s_2\ <= ((not Net_102_1 and Net_102_2)
+	OR (not Net_102_0 and Net_102_2)
+	OR (not Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_19\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_11\ <=  ('0') ;
+
+
+Substituting virtuals - pass 4:
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\' (cost = 6):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_4\ <= ((Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_3\' (cost = 4):
+\Counter:MODULE_1:g2:a0:s_3\ <= ((not Net_102_2 and Net_102_3)
+	OR (not Net_102_1 and Net_102_3)
+	OR (not Net_102_0 and Net_102_3)
+	OR (not Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_20\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_12\ <=  ('0') ;
+
+
+Substituting virtuals - pass 5:
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\' (cost = 7):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_5\ <= ((Net_102_4 and Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_4\' (cost = 5):
+\Counter:MODULE_1:g2:a0:s_4\ <= ((not Net_102_3 and Net_102_4)
+	OR (not Net_102_2 and Net_102_4)
+	OR (not Net_102_1 and Net_102_4)
+	OR (not Net_102_0 and Net_102_4)
+	OR (not Net_102_4 and Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_21\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_13\ <=  ('0') ;
+
+
+Substituting virtuals - pass 6:
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\' (cost = 8):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_6\ <= ((Net_102_4 and Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0 and Net_102_5));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_5\' (cost = 6):
+\Counter:MODULE_1:g2:a0:s_5\ <= ((not Net_102_4 and Net_102_5)
+	OR (not Net_102_3 and Net_102_5)
+	OR (not Net_102_2 and Net_102_5)
+	OR (not Net_102_1 and Net_102_5)
+	OR (not Net_102_0 and Net_102_5)
+	OR (not Net_102_5 and Net_102_4 and Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_22\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_14\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_7\ <= ((Net_102_4 and Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0 and Net_102_6 and Net_102_5));
+
+
+Substituting virtuals - pass 7:
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:s_6\' (cost = 7):
+\Counter:MODULE_1:g2:a0:s_6\ <= ((not Net_102_4 and Net_102_6)
+	OR (not Net_102_3 and Net_102_6)
+	OR (not Net_102_2 and Net_102_6)
+	OR (not Net_102_1 and Net_102_6)
+	OR (not Net_102_0 and Net_102_6)
+	OR (not Net_102_5 and Net_102_6)
+	OR (not Net_102_6 and Net_102_4 and Net_102_3 and Net_102_2 and Net_102_1 and Net_102_0 and Net_102_5));
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_23\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\' (cost = 0):
+\Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_15\ <=  ('0') ;
+
+
+Substituting virtuals - pass 8:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 42 signals.
+	Turned 3 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\ to Net_66
+Aliasing \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\ to Net_66
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[237] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[247] = Net_66[57]
+Removing Lhs of wire \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\[257] = Net_66[57]
+
+------------------------------------------------------
+Aliased 0 equations, 3 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+
+Eliminating unused logic - pass 2:
+
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp
+Warp Program   : D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya "-.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj" -dcpsoc3 Test1.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.999ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Thursday, 14 November 2019 10:07:43
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE -ya -.fftprj=C:\Users\007\Documents\PSoC Creator\Test1.cydsn\Test1.cyprj -d CY8C3866AXI-040 Test1.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Removed wire end \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_24\ kept Net_66
+    Removed wire end \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_16\ kept Net_66
+    Removed wire end \Counter:MODULE_1:g2:a0:g1:z1:s0:g1:u0:c_8\ kept Net_66
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'H_Note'. Fanout=1, Signal=Net_65
+    Digital Clock 1: Automatic-assigning  clock 'A_Note'. Fanout=1, Signal=Net_64
+    Digital Clock 2: Automatic-assigning  clock 'G_Note'. Fanout=1, Signal=Net_63
+    Digital Clock 3: Automatic-assigning  clock 'F_Note'. Fanout=1, Signal=Net_60
+    Digital Clock 4: Automatic-assigning  clock 'E_Note'. Fanout=1, Signal=Net_59
+    Digital Clock 5: Automatic-assigning  clock 'D_Note'. Fanout=1, Signal=Net_58
+    Digital Clock 6: Automatic-assigning  clock 'C_Note'. Fanout=1, Signal=Net_57
+    Digital Clock 7: Automatic-assigning  clock 'Tempo_Clock'. Fanout=7, Signal=Net_101
+</CYPRESSTAG>
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = Buzzer(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Buzzer(0)__PA ,
+            pin_input => Net_481 ,
+            pad => Buzzer(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Pin_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Pin_1(0)__PA ,
+            pin_input => Net_481 ,
+            pad => Pin_1(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_494_2_split, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_6 * 
+              !Net_102_5
+            + !Net_102_4 * !Net_102_3 * !Net_102_1 * Net_102_0 * Net_102_6 * 
+              Net_102_5
+            + Net_102_4 * !Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_6 * 
+              Net_102_5
+            + !Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + Net_102_3 * Net_102_2 * !Net_102_1 * !Net_102_6 * !Net_102_5
+            + Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_6 * Net_102_5
+            + !Net_102_2 * !Net_102_1 * !Net_102_0 * Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_2_split (fanout=1)
+
+    MacroCell: Name=Net_494_2, Mode=(Combinatorial)
+        Total # of inputs        : 9
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_102_4 * Net_102_3 * !Net_102_6 * Net_102_5
+            + Net_102_4 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_0 * Net_102_6 * !Net_102_5
+            + Net_102_3 * !Net_102_2 * Net_102_1 * Net_102_6
+            + Net_102_3 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + Net_494_2_split
+            + Net_494_2_split_1
+        );
+        Output = Net_494_2 (fanout=1)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_494_1, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !Net_494_1_split * !Net_494_1_split_1 * !Net_494_1_split_2
+        );
+        Output = Net_494_1 (fanout=1)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_494_0, Mode=(Combinatorial)
+        Total # of inputs        : 9
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        !(
+              !Net_102_4 * Net_102_3 * !Net_102_2 * Net_102_0 * !Net_102_6
+            + !Net_102_4 * Net_102_3 * Net_102_1 * !Net_102_6
+            + Net_102_4 * !Net_102_3 * Net_102_2 * !Net_102_1 * !Net_102_5
+            + Net_494_0_split
+            + Net_494_0_split_1
+        );
+        Output = Net_494_0 (fanout=1)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    MacroCell: Name=Net_494_0_split_1, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * !Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_6 * 
+              !Net_102_5
+            + !Net_102_4 * !Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * 
+              Net_102_6
+            + !Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_0 * 
+              Net_102_6
+            + !Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_6 * 
+              Net_102_5
+            + !Net_102_4 * !Net_102_2 * !Net_102_1 * !Net_102_0 * Net_102_6 * 
+              Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_1 * Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_1 * Net_102_0 * Net_102_6 * !Net_102_5
+            + Net_102_3 * Net_102_2 * Net_102_1 * !Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_0_split_1 (fanout=1)
+
+    MacroCell: Name=Net_494_0_split, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * Net_102_2 * Net_102_1 * Net_102_0 * Net_102_6 * 
+              !Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_6 * 
+              !Net_102_5
+            + Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_0 * Net_102_6 * 
+              !Net_102_5
+            + Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_0 * 
+              Net_102_6
+            + Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_0 * Net_102_6 * 
+              Net_102_5
+            + !Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_0 * !Net_102_6 * 
+              Net_102_5
+        );
+        Output = Net_494_0_split (fanout=1)
+
+    MacroCell: Name=Net_494_1_split_2, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_102_4 * !Net_102_3 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + !Net_102_4 * Net_102_1 * !Net_102_0 * Net_102_6
+            + Net_102_4 * !Net_102_3 * !Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_2 * Net_102_1 * Net_102_6
+            + Net_102_4 * Net_102_1 * Net_102_6 * !Net_102_5
+            + !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_0
+            + !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_5
+        );
+        Output = Net_494_1_split_2 (fanout=1)
+
+    MacroCell: Name=Net_494_1_split_1, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_5
+            + !Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_6 * !Net_102_5
+            + !Net_102_4 * Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_6
+            + !Net_102_4 * !Net_102_1 * Net_102_0 * Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_1 * Net_102_6 * Net_102_5
+            + Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_6 * Net_102_5
+            + Net_102_4 * Net_102_3 * Net_102_1 * Net_102_0 * Net_102_5
+            + Net_102_4 * Net_102_3 * !Net_102_0 * Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_1_split_1 (fanout=1)
+
+    MacroCell: Name=Net_494_1_split, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              Net_102_4 * Net_102_3 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + !Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_0 * Net_102_5
+            + !Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_6 * !Net_102_5
+            + !Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * !Net_102_6
+            + !Net_102_3 * !Net_102_1 * Net_102_0 * Net_102_6 * Net_102_5
+            + Net_102_3 * Net_102_2 * !Net_102_1 * !Net_102_6 * !Net_102_5
+            + Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_6 * Net_102_5
+            + Net_102_3 * Net_102_1 * Net_102_0 * Net_102_6 * Net_102_5
+        );
+        Output = Net_494_1_split (fanout=1)
+
+    MacroCell: Name=Net_494_2_split_1, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_5
+            + !Net_102_4 * Net_102_2 * Net_102_0 * Net_102_6 * !Net_102_5
+            + !Net_102_4 * Net_102_1 * !Net_102_0 * Net_102_6 * Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_6
+            + Net_102_4 * !Net_102_3 * Net_102_2 * Net_102_1 * !Net_102_5
+            + !Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * !Net_102_6
+            + Net_102_3 * Net_102_1 * Net_102_0 * Net_102_5
+            + Net_102_2 * Net_102_1 * Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_2_split_1 (fanout=1)
+
+    MacroCell: Name=Net_481, Mode=(Combinatorial)
+        Total # of inputs        : 10
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_494_2 * !Net_494_1 * !Net_494_0 * Net_57_local
+            + !Net_494_2 * !Net_494_1 * Net_494_0 * Net_58_local
+            + !Net_494_2 * Net_494_1 * !Net_494_0 * Net_59_local
+            + !Net_494_2 * Net_494_1 * Net_494_0 * Net_60_local
+            + Net_494_2 * !Net_494_1 * !Net_494_0 * Net_63_local
+            + Net_494_2 * !Net_494_1 * Net_494_0 * Net_64_local
+            + Net_494_2 * Net_494_1 * !Net_494_0 * Net_65_local
+        );
+        Output = Net_481 (fanout=2)
+
+    MacroCell: Name=Net_102_4, Mode=(T-Register)
+        Total # of inputs        : 4
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0
+        );
+        Output = Net_102_4 (fanout=11)
+
+    MacroCell: Name=Net_102_3, Mode=(T-Register)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_2 * Net_102_1 * Net_102_0
+        );
+        Output = Net_102_3 (fanout=12)
+
+    MacroCell: Name=Net_102_2, Mode=(T-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_1 * Net_102_0
+        );
+        Output = Net_102_2 (fanout=13)
+
+    MacroCell: Name=Net_102_1, Mode=(T-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_0
+        );
+        Output = Net_102_1 (fanout=14)
+
+    MacroCell: Name=Net_102_0, Mode=(T-Register)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = Net_102_0 (fanout=15)
+
+    MacroCell: Name=Net_102_6, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_4 * Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * 
+              Net_102_5
+        );
+        Output = Net_102_6 (fanout=9)
+
+    MacroCell: Name=Net_102_5, Mode=(T-Register)
+        Total # of inputs        : 5
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_4 * Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0
+        );
+        Output = Net_102_5 (fanout=10)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    8 :    0 :    8 : 100.00 %
+Analog Clocks                 :    0 :    4 :    4 :  0.00 %
+CapSense Buffers              :    0 :    2 :    2 :  0.00 %
+Digital Filter Block          :    0 :    1 :    1 :  0.00 %
+Interrupts                    :    0 :   32 :   32 :  0.00 %
+IO                            :    5 :   67 :   72 :  6.94 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
+I2C                           :    0 :    1 :    1 :  0.00 %
+USB                           :    0 :    1 :    1 :  0.00 %
+DMA Channels                  :    0 :   24 :   24 :  0.00 %
+Timer                         :    0 :    4 :    4 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :   18 :  174 :  192 :  9.38 %
+  Unique P-terms              :   78 :  306 :  384 : 20.31 %
+  Total P-terms               :   81 :      :      :        
+  Datapath Cells              :    0 :   24 :   24 :  0.00 %
+  Status Cells                :    0 :   24 :   24 :  0.00 %
+  Control Cells               :    0 :   24 :   24 :  0.00 %
+Opamp                         :    0 :    4 :    4 :  0.00 %
+Comparator                    :    0 :    4 :    4 :  0.00 %
+Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
+LPF                           :    0 :    2 :    2 :  0.00 %
+Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
+DAC                           :      :      :      :        
+  VIDAC                       :    0 :    4 :    4 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.124ms
+Tech Mapping phase: Elapsed time ==> 0s.249ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_6@[IOP=(1)][IoId=(6)] : Buzzer(0) (fixed)
+IO_7@[IOP=(1)][IoId=(7)] : Pin_1(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.031ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = False
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.593ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :   12 :   36 :   48 :  25.00%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            7.42
+                   Pterms :            6.75
+               Macrocells :            1.50
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          6 :       9.67 :       3.00
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] contents:
+LAB@[UDB=(0,0)][LB=0] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_0_split_1, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * !Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_6 * 
+              !Net_102_5
+            + !Net_102_4 * !Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * 
+              Net_102_6
+            + !Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_0 * 
+              Net_102_6
+            + !Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_6 * 
+              Net_102_5
+            + !Net_102_4 * !Net_102_2 * !Net_102_1 * !Net_102_0 * Net_102_6 * 
+              Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_1 * Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_1 * Net_102_0 * Net_102_6 * !Net_102_5
+            + Net_102_3 * Net_102_2 * Net_102_1 * !Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_0_split_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,0)][LB=1] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_1_split_1, Mode=(Combinatorial) @ [UDB=(0,0)][LB=1][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_5
+            + !Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_6 * !Net_102_5
+            + !Net_102_4 * Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_6
+            + !Net_102_4 * !Net_102_1 * Net_102_0 * Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_1 * Net_102_6 * Net_102_5
+            + Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_6 * Net_102_5
+            + Net_102_4 * Net_102_3 * Net_102_1 * Net_102_0 * Net_102_5
+            + Net_102_4 * Net_102_3 * !Net_102_0 * Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_1_split_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(0,1)] contents:
+LAB@[UDB=(0,1)][LB=0] #macrocells=2, #inputs=5, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_1, Mode=(Combinatorial) @ [UDB=(0,1)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !Net_494_1_split * !Net_494_1_split_1 * !Net_494_1_split_2
+        );
+        Output = Net_494_1 (fanout=1)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_102_2, Mode=(T-Register) @ [UDB=(0,1)][LB=0][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_1 * Net_102_0
+        );
+        Output = Net_102_2 (fanout=13)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=7, #pterms=7
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=Net_494_1_split_2, Mode=(Combinatorial) @ [UDB=(0,1)][LB=1][MC=1]
+        Total # of inputs        : 7
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_102_4 * !Net_102_3 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + !Net_102_4 * Net_102_1 * !Net_102_0 * Net_102_6
+            + Net_102_4 * !Net_102_3 * !Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_2 * Net_102_1 * Net_102_6
+            + Net_102_4 * Net_102_1 * Net_102_6 * !Net_102_5
+            + !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_0
+            + !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_5
+        );
+        Output = Net_494_1_split_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_102_0, Mode=(T-Register) @ [UDB=(0,1)][LB=1][MC=2]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = Net_102_0 (fanout=15)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(0,2)] contents:
+LAB@[UDB=(0,2)][LB=0] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_1_split, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              Net_102_4 * Net_102_3 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + !Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_0 * Net_102_5
+            + !Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_6 * !Net_102_5
+            + !Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * !Net_102_6
+            + !Net_102_3 * !Net_102_1 * Net_102_0 * Net_102_6 * Net_102_5
+            + Net_102_3 * Net_102_2 * !Net_102_1 * !Net_102_6 * !Net_102_5
+            + Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_6 * Net_102_5
+            + Net_102_3 * Net_102_1 * Net_102_0 * Net_102_6 * Net_102_5
+        );
+        Output = Net_494_1_split (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,2)][LB=1] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_2_split_1, Mode=(Combinatorial) @ [UDB=(0,2)][LB=1][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_5
+            + !Net_102_4 * Net_102_2 * Net_102_0 * Net_102_6 * !Net_102_5
+            + !Net_102_4 * Net_102_1 * !Net_102_0 * Net_102_6 * Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_6
+            + Net_102_4 * !Net_102_3 * Net_102_2 * Net_102_1 * !Net_102_5
+            + !Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * !Net_102_6
+            + Net_102_3 * Net_102_1 * Net_102_0 * Net_102_5
+            + Net_102_2 * Net_102_1 * Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_2_split_1 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(0,3)] is empty.
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] contents:
+LAB@[UDB=(1,0)][LB=0] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_0_split, Mode=(Combinatorial) @ [UDB=(1,0)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * Net_102_2 * Net_102_1 * Net_102_0 * Net_102_6 * 
+              !Net_102_5
+            + Net_102_4 * !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_6 * 
+              !Net_102_5
+            + Net_102_4 * Net_102_3 * !Net_102_2 * !Net_102_0 * Net_102_6 * 
+              !Net_102_5
+            + Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_0 * 
+              Net_102_6
+            + Net_102_4 * Net_102_3 * Net_102_2 * !Net_102_0 * Net_102_6 * 
+              Net_102_5
+            + !Net_102_3 * !Net_102_2 * !Net_102_1 * !Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_0 * !Net_102_6 * 
+              Net_102_5
+        );
+        Output = Net_494_0_split (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(1,0)][LB=1] #macrocells=1, #inputs=9, #pterms=5
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_494_0, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=2]
+        Total # of inputs        : 9
+        Total # of product terms : 5
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        !(
+              !Net_102_4 * Net_102_3 * !Net_102_2 * Net_102_0 * !Net_102_6
+            + !Net_102_4 * Net_102_3 * Net_102_1 * !Net_102_6
+            + Net_102_4 * !Net_102_3 * Net_102_2 * !Net_102_1 * !Net_102_5
+            + Net_494_0_split
+            + Net_494_0_split_1
+        );
+        Output = Net_494_0 (fanout=1)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(1,1)] contents:
+LAB@[UDB=(1,1)][LB=0] #macrocells=2, #inputs=11, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_481, Mode=(Combinatorial) @ [UDB=(1,1)][LB=0][MC=0]
+        Total # of inputs        : 10
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_494_2 * !Net_494_1 * !Net_494_0 * Net_57_local
+            + !Net_494_2 * !Net_494_1 * Net_494_0 * Net_58_local
+            + !Net_494_2 * Net_494_1 * !Net_494_0 * Net_59_local
+            + !Net_494_2 * Net_494_1 * Net_494_0 * Net_60_local
+            + Net_494_2 * !Net_494_1 * !Net_494_0 * Net_63_local
+            + Net_494_2 * !Net_494_1 * Net_494_0 * Net_64_local
+            + Net_494_2 * Net_494_1 * !Net_494_0 * Net_65_local
+        );
+        Output = Net_481 (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_102_1, Mode=(T-Register) @ [UDB=(1,1)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_0
+        );
+        Output = Net_102_1 (fanout=14)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(1,1)][LB=1] #macrocells=4, #inputs=6, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_102_5, Mode=(T-Register) @ [UDB=(1,1)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_4 * Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0
+        );
+        Output = Net_102_5 (fanout=10)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_102_6, Mode=(T-Register) @ [UDB=(1,1)][LB=1][MC=1]
+        Total # of inputs        : 6
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_4 * Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0 * 
+              Net_102_5
+        );
+        Output = Net_102_6 (fanout=9)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_102_3, Mode=(T-Register) @ [UDB=(1,1)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_2 * Net_102_1 * Net_102_0
+        );
+        Output = Net_102_3 (fanout=12)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_102_4, Mode=(T-Register) @ [UDB=(1,1)][LB=1][MC=3]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_101) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_102_3 * Net_102_2 * Net_102_1 * Net_102_0
+        );
+        Output = Net_102_4 (fanout=11)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(1,2)] contents:
+LAB@[UDB=(1,2)][LB=0] #macrocells=1, #inputs=9, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_2, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=0]
+        Total # of inputs        : 9
+        Total # of product terms : 7
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        (
+              !Net_102_4 * Net_102_3 * !Net_102_6 * Net_102_5
+            + Net_102_4 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + Net_102_4 * !Net_102_0 * Net_102_6 * !Net_102_5
+            + Net_102_3 * !Net_102_2 * Net_102_1 * Net_102_6
+            + Net_102_3 * !Net_102_2 * Net_102_6 * !Net_102_5
+            + Net_494_2_split
+            + Net_494_2_split_1
+        );
+        Output = Net_494_2 (fanout=1)
+        Properties               : 
+        {
+            soft = 1
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(1,2)][LB=1] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=Net_494_2_split, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !Net_102_4 * !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_6 * 
+              !Net_102_5
+            + !Net_102_4 * !Net_102_3 * !Net_102_1 * Net_102_0 * Net_102_6 * 
+              Net_102_5
+            + Net_102_4 * !Net_102_3 * Net_102_2 * !Net_102_1 * Net_102_6 * 
+              Net_102_5
+            + !Net_102_3 * !Net_102_2 * !Net_102_1 * Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + !Net_102_3 * !Net_102_2 * Net_102_1 * !Net_102_0 * !Net_102_6 * 
+              Net_102_5
+            + Net_102_3 * Net_102_2 * !Net_102_1 * !Net_102_6 * !Net_102_5
+            + Net_102_3 * !Net_102_1 * !Net_102_0 * !Net_102_6 * Net_102_5
+            + !Net_102_2 * !Net_102_1 * !Net_102_0 * Net_102_6 * !Net_102_5
+        );
+        Output = Net_494_2_split (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(1,3)] is empty.
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] is empty.
+UDB [UDB=(2,1)] is empty.
+UDB [UDB=(2,2)] is empty.
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] is empty.
+UDB [UDB=(3,1)] is empty.
+UDB [UDB=(3,2)] is empty.
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] is empty.
+UDB [UDB=(3,5)] is empty.
+Intr container @ [IntrContainer=(0)]: empty
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 contains the following IO cells:
+Port 1 contains the following IO cells:
+[IoId=6]: 
+Pin : Name = Buzzer(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Buzzer(0)__PA ,
+        pin_input => Net_481 ,
+        pad => Buzzer(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = Pin_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Pin_1(0)__PA ,
+        pin_input => Net_481 ,
+        pad => Pin_1(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 2 contains the following IO cells:
+Port 3 contains the following IO cells:
+Port 4 contains the following IO cells:
+Port 5 contains the following IO cells:
+Port 6 contains the following IO cells:
+Port 12 contains the following IO cells:
+Port 15 contains the following IO cells:
+CAN group 0: empty
+Cache group 0: empty
+CapSense group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            imo => ClockBlock_IMO ,
+            pllout => ClockBlock_PLL_OUT ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            xtal => ClockBlock_XTAL ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            dclk_glb_0 => Net_65 ,
+            dclk_0 => Net_65_local ,
+            dclk_glb_1 => Net_64 ,
+            dclk_1 => Net_64_local ,
+            dclk_glb_2 => Net_63 ,
+            dclk_2 => Net_63_local ,
+            dclk_glb_3 => Net_60 ,
+            dclk_3 => Net_60_local ,
+            dclk_glb_4 => Net_59 ,
+            dclk_4 => Net_59_local ,
+            dclk_glb_5 => Net_58 ,
+            dclk_5 => Net_58_local ,
+            dclk_glb_6 => Net_57 ,
+            dclk_6 => Net_57_local ,
+            dclk_glb_7 => Net_101 ,
+            dclk_7 => Net_101_local );
+        Properties:
+        {
+        }
+Comparator group 0: empty
+DFB group 0: empty
+DSM group 0: empty
+Decimator group 0: empty
+EMIF group 0: empty
+I2C group 0: empty
+LCD group 0: empty
+LVD group 0: empty
+PICU group 0: empty
+PM group 0: empty
+SC group 0: empty
+SPC group 0: empty
+Timer group 0: empty
+USB group 0: empty
+VIDAC group 0: empty
+OpAmp group 0: empty
+CsAbuf group 0: empty
+Vref group 0: empty
+LPF group 0: empty
+ANAIF group 0: empty
+PHUB group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |           | 
+Port | Pin | Fixed |      Type |       Drive Mode |      Name | Connections
+-----+-----+-------+-----------+------------------+-----------+------------
+   1 |   6 |     * |      NONE |         CMOS_OUT | Buzzer(0) | In(Net_481)
+     |   7 |     * |      NONE |         CMOS_OUT |  Pin_1(0) | In(Net_481)
+---------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.046ms
+Digital Placement phase: Elapsed time ==> 2s.156ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+"D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\bin/sjrouter.exe" --xml-path "D:\Programms\PSoC\PSoC Creator\4.2\PSoC Creator\dev\psoc3/route_arch-rrg.cydata" --vh2-path "Test1_r.vh2" --pcf-path "Test1.pco" --des-name "Test1" --dsf-path "Test1.dsf" --sdc-path "Test1.sdc" --lib-path "Test1_r.lib"
+Routing successful.
+Digital Routing phase: Elapsed time ==> 3s.031ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.406ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.109ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in Test1_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.749ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.359ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 7s.796ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 7s.796ms
+Info: fit.M0045: Generation of disabled sheet defines resulted in name collisions or name changes due to a sheet name not being a valid C identifier. The following names were changed to avoid the collision(s)/illegal names: Page 2, Page 3.
+API generation phase: Elapsed time ==> 2s.218ms
+Dependency generation phase: Elapsed time ==> 0s.062ms
+Cleanup phase: Elapsed time ==> 0s.000ms

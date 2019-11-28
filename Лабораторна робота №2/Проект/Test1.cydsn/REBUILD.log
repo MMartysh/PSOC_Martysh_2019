@@ -1,0 +1,80 @@
+--------------- Rebuild Started: 10/30/2019 09:09:48 Project: Test1, Configuration: DP8051 Keil 9.51 Debug ---------------
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\main.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyDmac.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyFlash.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CyLib.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cymem.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cyPm.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\CySpc.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cyutils.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\KeilStart.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\cy_em_eeprom.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\C_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Buzzer.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\D_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\E_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\F_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\G_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\A_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\H_Note.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Tempo_Clock.obj"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Test1.hex"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Test1.elf"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\Test1.map"
+Deleting file ".\Test1.cycdx"
+Deleting file ".\Test1.rpt"
+Deleting file ".\Test1_timing.html"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\.deps\SOURCE_C__DP8051_KEIL_GENERIC.P"
+Deleting file ".\DP8051\DP8051_Keil_951\Debug\.deps\SOURCE_ASM__DP8051_KEIL_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\vanya\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "E:\Test\Test Lab\Test1.cydsn\Test1.cyprj" -d CY8C3866AXI-040 -s "E:\Test\Test Lab\Test1.cydsn\Generated_Source\PSoC3" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=BE
+Elaborating Design...
+ADD: fit.M0032: warning: Clock Warning: (Tempo_Clock's accuracy range '15.873  Hz -50% +100%, (7.937  Hz - 31.746  Hz)' is not within the specified tolerance range '16  Hz +/- 5%, (15.2  Hz - 16.8  Hz)'.).
+ * E:\Test\Test Lab\Test1.cydsn\Test1.cydwr (Tempo_Clock)
+ * E:\Test\Test Lab\Test1.cydsn\TopDesign\TopDesign.cysch (Instance:Tempo_Clock)
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Info: fit.M0045: Generation of disabled sheet defines resulted in name collisions or name changes due to a sheet name not being a valid C identifier. The following names were changed to avoid the collision(s)/illegal names: Page 2, Page 3.
+Dependency Generation...
+Cleanup...
+c51.exe main.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/main.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\main.obj)
+c51.exe Generated_Source\PSoC3\cyfitter_cfg.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/cyfitter_cfg.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj)
+c51.exe Generated_Source\PSoC3\CyDmac.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/CyDmac.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\CyDmac.obj)
+c51.exe Generated_Source\PSoC3\CyFlash.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/CyFlash.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\CyFlash.obj)
+c51.exe Generated_Source\PSoC3\CyLib.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/CyLib.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\CyLib.obj)
+c51.exe Generated_Source\PSoC3\cyPm.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/cyPm.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\cyPm.obj)
+c51.exe Generated_Source\PSoC3\CySpc.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/CySpc.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\CySpc.obj)
+c51.exe Generated_Source\PSoC3\cyutils.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/cyutils.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\cyutils.obj)
+c51.exe Generated_Source\PSoC3\cy_em_eeprom.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/cy_em_eeprom.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\cy_em_eeprom.obj)
+c51.exe Generated_Source\PSoC3\C_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/C_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\C_Note.obj)
+c51.exe Generated_Source\PSoC3\Buzzer.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/Buzzer.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\Buzzer.obj)
+c51.exe Generated_Source\PSoC3\D_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/D_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\D_Note.obj)
+c51.exe Generated_Source\PSoC3\E_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/E_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\E_Note.obj)
+c51.exe Generated_Source\PSoC3\F_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/F_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\F_Note.obj)
+c51.exe Generated_Source\PSoC3\G_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/G_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\G_Note.obj)
+c51.exe Generated_Source\PSoC3\A_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/A_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\A_Note.obj)
+c51.exe Generated_Source\PSoC3\H_Note.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/H_Note.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\H_Note.obj)
+c51.exe Generated_Source\PSoC3\Tempo_Clock.c NOIV LARGE MODDP2 OMF2 VB(1) NOIP "INCDIR(., Generated_Source\PSoC3)" FF(3) DB DF(DEBUG) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/Tempo_Clock.lst) CD OT(2 ,Size) OJ(.\DP8051\DP8051_Keil_951\Debug\Tempo_Clock.obj)
+Ax51.exe Generated_Source\PSoC3\CyBootAsmKeil.a51 CASE EP "INCDIR(., Generated_Source\PSoC3)" DB MACRO DF(DEBUG) NOCO PR(.\DP8051\DP8051_Keil_951\Debug/CyBootAsmKeil.lst) OJ(.\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj)
+Ax51.exe Generated_Source\PSoC3\cymem.a51 CASE EP "INCDIR(., Generated_Source\PSoC3)" DB MACRO DF(DEBUG) NOCO PR(.\DP8051\DP8051_Keil_951\Debug/cymem.lst) OJ(.\DP8051\DP8051_Keil_951\Debug\cymem.obj)
+Ax51.exe Generated_Source\PSoC3\KeilStart.a51 CASE EP "INCDIR(., Generated_Source\PSoC3)" DB MACRO DF(DEBUG) NOCO PR(.\DP8051\DP8051_Keil_951\Debug/KeilStart.lst) OJ(.\DP8051\DP8051_Keil_951\Debug\KeilStart.obj)
+LIBX51.exe TRANSFER '.\DP8051\DP8051_Keil_951\Debug\CyDmac.obj', '.\DP8051\DP8051_Keil_951\Debug\CyFlash.obj', '.\DP8051\DP8051_Keil_951\Debug\CyLib.obj', '.\DP8051\DP8051_Keil_951\Debug\cyPm.obj', '.\DP8051\DP8051_Keil_951\Debug\CySpc.obj', '.\DP8051\DP8051_Keil_951\Debug\cyutils.obj', '.\DP8051\DP8051_Keil_951\Debug\cy_em_eeprom.obj', '.\DP8051\DP8051_Keil_951\Debug\C_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\Buzzer.obj', '.\DP8051\DP8051_Keil_951\Debug\D_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\E_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\F_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\G_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\A_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\H_Note.obj', '.\DP8051\DP8051_Keil_951\Debug\Tempo_Clock.obj', '.\DP8051\DP8051_Keil_951\Debug\CyBootAsmKeil.obj', '.\DP8051\DP8051_Keil_951\Debug\cymem.obj', '.\DP8051\DP8051_Keil_951\Debug\KeilStart.obj' TO '.\DP8051\DP8051_Keil_951\Debug\Test1.lib'
+LX51.exe '.\DP8051\DP8051_Keil_951\Debug\main.obj', '.\DP8051\DP8051_Keil_951\Debug\cyfitter_cfg.obj', '.\DP8051\DP8051_Keil_951\Debug\Test1.lib', 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\DP8051\DP8051_Keil_951\Debug\CyComponentLibrary.lib' TO '.\DP8051\DP8051_Keil_951\Debug\Test1.omf' CODE RU RC(10) DW(16) WL(2) PR(.\DP8051\DP8051_Keil_951\Debug/Test1.map) IX CL(XDATA(X:0x0000-X:0x1FFF)) CL(CODE(C:0x0000-C:0xFFFF)) CL(CONST(C:0x0000-C:0xFFFF))
+Program Size: data=14.0 xdata=96 const=45 code=2120
+OHx51.exe Test1.omf HEXFILE(Test1.ihx)
+c8051-elf-omf2elf.exe Test1.omf Test1.elf
+CyHexTool -o "E:\Test\Test Lab\Test1.cydsn\DP8051\DP8051_Keil_951\Debug\Test1.hex" -f "E:\Test\Test Lab\Test1.cydsn\DP8051\DP8051_Keil_951\Debug\Test1.ihx" -prot Generated_Source\PSoC3\protect.hex -id 1E028069 -a EEPROM=90200000:800,PROGRAM=00000000:10000,CONFIG=80000000:2000,PROTECT=90400000:40 -meta 0301 -cunv 00004005 -wonv BC90ACAF -ecc Generated_Source\PSoC3\config.hex
+Flash used: 2165 of 65536 bytes (3.3%).
+SRAM used: 96 of 8192 bytes (1.2%).
+--------------- Rebuild Succeeded: 10/30/2019 09:10:10 ---------------
